@@ -1,0 +1,32 @@
+{
+    "name": "plugin-template",
+    "version": "1.0.0",
+    "description": "插件开发项目模板",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "webpack-dev-server"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kimixue/plugin-template.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/kimixue/plugin-template/issues"
+    },
+    "homepage": "https://github.com/kimixue/plugin-template#readme",
+    "devDependencies": {
+        "@babel/core": "^7.9.6",
+        "@babel/preset-env": "^7.9.6",
+        "babel-loader": "^8.1.0",
+        "webpack": "^4.43.0",
+        "webpack-cli": "^3.3.11",
+        "webpack-dev-server": "^3.11.0"
+    },
+    "dependencies": {
+        "html-webpack-plugin": "^4.3.0"
+    }
+}
